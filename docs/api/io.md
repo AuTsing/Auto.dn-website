@@ -4,7 +4,7 @@
 
 ## io.toast
 
-`io.toast(...args: any)`
+`toast(...args: any): void`
 
 -   `args` 任何类型的参数，最终会将其转换为字符串输出。
 
@@ -22,7 +22,7 @@ toast('Hello from toast!');
 
 ## io.log.verbose
 
-`io.log.verbose(...args: any)`
+`verbose(...args: any): void`
 
 -   `args` 任何类型的参数，最终会将其转换为字符串输出。
 
@@ -30,7 +30,7 @@ toast('Hello from toast!');
 
 ## io.log.info
 
-`io.log.info(...args: any)`
+`info(...args: any): void`
 
 -   `args` 任何类型的参数，最终会将其转换为字符串输出。
 
@@ -38,7 +38,7 @@ toast('Hello from toast!');
 
 ## io.log.debug
 
-`io.log.debug(...args: any)`
+`debug(...args: any): void`
 
 -   `args` 任何类型的参数，最终会将其转换为字符串输出。
 
@@ -46,7 +46,7 @@ toast('Hello from toast!');
 
 ## io.log.warn
 
-`io.log.warn(...args: any)`
+`warn(...args: any): void`
 
 -   `args` 任何类型的参数，最终会将其转换为字符串输出。
 
@@ -54,7 +54,7 @@ toast('Hello from toast!');
 
 ## io.log.error
 
-`io.log.error(...args: any)`
+`error(...args: any): void`
 
 -   `args` 任何类型的参数，最终会将其转换为字符串输出。
 
@@ -62,7 +62,7 @@ toast('Hello from toast!');
 
 ## io.log.assert
 
-`io.log.assert(...args: any)`
+`assert(...args: any): void`
 
 -   `args` 任何类型的参数，最终会将其转换为字符串输出。
 
@@ -70,7 +70,7 @@ toast('Hello from toast!');
 
 ## io.log.v
 
-`io.log.v(...args: any)`
+`v(...args: any): void`
 
 -   `args` 任何类型的参数，最终会将其转换为字符串输出。
 
@@ -78,7 +78,7 @@ toast('Hello from toast!');
 
 ## io.log.i
 
-`io.log.i(...args: any)`
+`i(...args: any): void`
 
 -   `args` 任何类型的参数，最终会将其转换为字符串输出。
 
@@ -86,7 +86,7 @@ toast('Hello from toast!');
 
 ## io.log.d
 
-`io.log.d(...args: any)`
+`d(...args: any): void`
 
 -   `args` 任何类型的参数，最终会将其转换为字符串输出。
 
@@ -94,7 +94,7 @@ toast('Hello from toast!');
 
 ## io.log.w
 
-`io.log.w(...args: any)`
+`w(...args: any): void`
 
 -   `args` 任何类型的参数，最终会将其转换为字符串输出。
 
@@ -102,7 +102,7 @@ toast('Hello from toast!');
 
 ## io.log.e
 
-`io.log.e(...args: any)`
+`e(...args: any): void`
 
 -   `args` 任何类型的参数，最终会将其转换为字符串输出。
 
@@ -110,7 +110,7 @@ toast('Hello from toast!');
 
 ## io.log.a
 
-`io.log.a(...args: any)`
+`a(...args: any): void`
 
 -   `args` 任何类型的参数，最终会将其转换为字符串输出。
 

@@ -23,11 +23,15 @@ export default defineConfig({
                 items: [
                     { text: 'io 输入输出', link: '/api/io' },
                     { text: 'finger 手指', link: '/api/finger' },
+                    { text: 'Rect 矩形', link: '/api/rect' },
+                    { text: 'UIObject UI对象', link: '/api/ui_object' },
                 ],
             },
         ],
+        logo: '/favicon.ico',
     },
     markdown: {
         linkify: false,
     },
+    head: [['link', { rel: 'icon', href: '/logo.svg' }]],
 });

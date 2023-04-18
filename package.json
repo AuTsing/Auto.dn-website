@@ -7,8 +7,8 @@
     "author": "AuTsing <763025696@qq.com>",
     "license": "MIT",
     "devDependencies": {
-        "vitepress": "^1.0.0-alpha.25",
-        "vue": "^3.2.41"
+        "vitepress": "^1.0.0-alpha.72",
+        "vue": "^3.2.47"
     },
     "scripts": {
         "docs:dev": "vitepress dev docs",
