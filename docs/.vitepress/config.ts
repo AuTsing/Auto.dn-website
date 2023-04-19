@@ -25,6 +25,7 @@ export default defineConfig({
                     { text: 'finger 手指', link: '/api/finger' },
                     { text: 'Rect 矩形', link: '/api/rect' },
                     { text: 'UIObject UI对象', link: '/api/ui_object' },
+                    { text: 'UISelector UI选择器', link: '/api/ui_selector' },
                 ],
             },
         ],
@@ -33,5 +34,5 @@ export default defineConfig({
     markdown: {
         linkify: false,
     },
-    head: [['link', { rel: 'icon', href: '/logo.svg' }]],
+    head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
 });
