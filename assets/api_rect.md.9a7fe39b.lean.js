@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,O as r}from"./chunks/framework.97fbe135.js";const b=JSON.parse('{"title":"Rect 矩形","description":"","frontmatter":{},"headers":[],"relativePath":"api/rect.md"}'),c={name:"api/rect.md"},o=r("",14),i=[o];function n(p,d,h,l,s,_){return a(),t("div",null,i)}const u=e(c,[["render",n]]);export{b as __pageData,u as default};

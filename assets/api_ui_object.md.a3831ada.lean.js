@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as c,O as o}from"./chunks/framework.97fbe135.js";const j=JSON.parse('{"title":"UIObject UI 对象","description":"","frontmatter":{},"headers":[],"relativePath":"api/ui_object.md"}'),a={name:"api/ui_object.md"},i=o("",192),l=[i];function d(r,b,n,s,u,h){return c(),t("div",null,l)}const g=e(a,[["render",d]]);export{j as __pageData,g as default};
