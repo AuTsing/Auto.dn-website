@@ -1,13 +1,21 @@
 import { defineConfig } from 'vitepress';
 
 export default defineConfig({
-    title: 'Denort',
-    description: 'Doc of Denort',
+    title: '小恐龙 Denofa | 基于 Deno 实现的自动化平台',
+    description: '基于 Deno 实现的自动化平台',
     themeConfig: {
-        siteTitle: 'Denort',
+        siteTitle: '小恐龙',
         nav: [
             { text: '开始', link: '/guide/introduction' },
-            { text: 'API 文档', link: '/api/' },
+            { text: 'API', link: '/api/' },
+            {
+                text: '下载',
+                items: [
+                    { text: 'Github', link: 'https://github.com/AuTsing/denofa_release/releases' },
+                    { text: '百度网盘', link: 'https://github.com/AuTsing/denofa_release/releases' },
+                    { text: '夸克网盘', link: 'https://github.com/AuTsing/denofa_release/releases' },
+                ],
+            },
             { text: '关于', link: '/about' },
         ],
         sidebar: [
@@ -30,6 +38,9 @@ export default defineConfig({
             },
         ],
         logo: '/favicon.ico',
+        search: {
+            provider: 'local',
+        },
     },
     markdown: {
         linkify: false,
