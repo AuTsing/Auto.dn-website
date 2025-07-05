@@ -1,10 +1,10 @@
 import { defineConfig } from 'vitepress';
 
 export default defineConfig({
-    title: '小恐龙 Denofa | 基于 Deno 实现的自动化平台',
+    title: 'Auto.dn | 基于 Deno 实现的自动化平台',
     description: '基于 Deno 实现的自动化平台',
     themeConfig: {
-        siteTitle: '小恐龙',
+        siteTitle: 'Auto.dn',
         nav: [
             { text: '开始', link: '/guide/introduction' },
             { text: 'API', link: '/api/' },
@@ -37,7 +37,7 @@ export default defineConfig({
                 ],
             },
         ],
-        logo: '/favicon.ico',
+        logo: '/denofa.svg',
         search: {
             provider: 'local',
         },

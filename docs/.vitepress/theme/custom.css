@@ -1,0 +1,10 @@
+img.VPImage.image-src {
+    height: 100%;
+}
+
+:root {
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #63a7a3 30%, #97ee79);
+    --vp-home-hero-image-background-image: linear-gradient(-45deg, #63a7a3 50%, #97ee79 50%);
+    --vp-home-hero-image-filter: blur(44px);
+}
