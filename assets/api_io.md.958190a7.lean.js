@@ -1,1 +1,0 @@
-import{_ as o,c as a,o as s,O as l}from"./chunks/framework.97fbe135.js";const F=JSON.parse('{"title":"io 输入输出","description":"","frontmatter":{},"headers":[],"relativePath":"api/io.md"}'),e={name:"api/io.md"},n=l("",58),p=[n];function r(c,i,t,d,g,D){return s(),a("div",null,p)}const h=o(e,[["render",r]]);export{F as __pageData,h as default};

@@ -1,1 +1,0 @@
-import{_ as e,c as l,o as i,O as o}from"./chunks/framework.97fbe135.js";const m=JSON.parse('{"title":"UISelector UI 选择器","description":"","frontmatter":{},"headers":[],"relativePath":"api/ui_selector.md"}'),r={name:"api/ui_selector.md"},a=o("",277),d=[a];function c(t,u,s,n,h,b){return i(),l("div",null,d)}const S=e(r,[["render",c]]);export{m as __pageData,S as default};

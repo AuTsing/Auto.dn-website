@@ -1,0 +1,1 @@
+import{_ as a,c as s,o,ag as l}from"./chunks/framework.Bw-5EFTY.js";const k=JSON.parse('{"title":"io 输入输出","description":"","frontmatter":{},"headers":[],"relativePath":"api/io.md","filePath":"api/io.md"}'),e={name:"api/io.md"};function n(t,i,h,r,d,p){return o(),s("div",null,i[0]||(i[0]=[l("",58)]))}const c=a(e,[["render",n]]);export{k as __pageData,c as default};

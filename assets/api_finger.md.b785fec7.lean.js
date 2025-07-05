@@ -1,1 +1,0 @@
-import{_ as i,c as e,o as c,O as a}from"./chunks/framework.97fbe135.js";const g=JSON.parse('{"title":"finger 手指","description":"","frontmatter":{},"headers":[],"relativePath":"api/finger.md"}'),s={name:"api/finger.md"},r=a("",43),t=[r];function o(l,n,d,b,f,h){return c(),e("div",null,t)}const y=i(s,[["render",o]]);export{g as __pageData,y as default};
