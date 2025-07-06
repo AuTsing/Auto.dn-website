@@ -3,8 +3,8 @@
 ## 安装应用
 
 -   [Github Releases](https://github.com/AuTsing/denofa_release/releases)
--   [百度网盘]()
--   [夸克网盘]()
+-   [百度网盘]
+-   [夸克网盘]
 
 ## 创建工程
 
