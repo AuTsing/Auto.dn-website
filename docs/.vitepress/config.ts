@@ -6,24 +6,39 @@ export default defineConfig({
     themeConfig: {
         siteTitle: 'Auto.dn',
         nav: [
-            { text: '开始', link: '/guide/introduction' },
-            { text: 'API', link: '/api/' },
+            { text: '指南', link: '/guide/what-is-denofa' },
+            {
+                text: 'API',
+                items: [
+                    { text: 'Android API', link: '/api/' },
+                    { text: 'Deno API', link: 'https://docs.deno.com/api/deno/~/Deno' },
+                    { text: 'Web API', link: 'https://docs.deno.com/api/web/all_symbols' },
+                    { text: 'Node API', link: 'https://docs.deno.com/api/node/' },
+                ],
+            },
             {
                 text: '下载',
                 items: [
                     { text: 'Github', link: 'https://github.com/AuTsing/denofa_release/releases' },
-                    { text: '百度网盘', link: 'https://github.com/AuTsing/denofa_release/releases' },
-                    { text: '夸克网盘', link: 'https://github.com/AuTsing/denofa_release/releases' },
+                    { text: '百度网盘', link: '/404.html' },
+                    { text: '夸克网盘', link: '/404.html' },
                 ],
             },
-            { text: '关于', link: '/about' },
+            {
+                text: '社区资源',
+                items: [
+                    { text: 'node.js', link: 'https://nodejs.org/zh-cn' },
+                    { text: 'npm', link: 'https://www.npmjs.com/' },
+                    { text: 'jsr', link: 'https://jsr.io/' },
+                ],
+            },
         ],
         sidebar: [
             {
-                text: '开始',
+                text: '指南',
                 items: [
-                    { text: '简介', link: '/guide/introduction' },
-                    { text: '快速上手', link: '/guide/quick-start' },
+                    { text: 'Auto.dn 是什么？', link: '/guide/what-is-denofa' },
+                    { text: '快速开始', link: '/guide/quick-start' },
                 ],
             },
             {

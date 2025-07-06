@@ -2,6 +2,11 @@ img.VPImage.image-src {
     height: 100%;
 }
 
+.vp-doc img {
+    max-width: 300px;
+    height: auto;
+}
+
 :root {
     --vp-home-hero-name-color: transparent;
     --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #63a7a3 30%, #97ee79);
