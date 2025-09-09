@@ -1,0 +1,22 @@
+{
+    "entryPoints": ["./dts/lib.autodn.d.ts"],
+    "out": "./docs/api",
+    "plugin": ["typedoc-plugin-markdown"],
+    "name": "Auto.dn",
+    "readme": "./dts/index.md",
+    "router": "kind",
+    "entryFileName": "index",
+    "lang": "zh",
+    "disableSources": true,
+    "hidePageHeader": true,
+    "useCodeBlocks": true,
+    "expandObjects": true,
+    "expandParameters": true,
+    "parametersFormat": "table",
+    "interfacePropertiesFormat": "table",
+    "classPropertiesFormat": "table",
+    "typeAliasPropertiesFormat": "table",
+    "enumMembersFormat": "table",
+    "propertyMembersFormat": "table",
+    "typeDeclarationFormat": "table"
+}

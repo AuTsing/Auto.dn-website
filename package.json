@@ -1,13 +1,16 @@
 {
-    "name": "denort_doc",
+    "name": "autodn-website",
     "version": "0.1.6",
     "description": "Doc of Denort",
     "main": "index.js",
     "type": "module",
-    "repository": "git@github.com:AuTsing/denort_doc.git",
+    "repository": "git@github.com:AuTsing/Auto.dn-website.git",
     "author": "AuTsing <763025696@qq.com>",
     "license": "MIT",
     "devDependencies": {
+        "@types/node": "^24.3.1",
+        "typedoc": "^0.28.12",
+        "typedoc-plugin-markdown": "^4.8.1",
         "vitepress": "1.6.3",
         "vue": "^3.5.17"
     },
