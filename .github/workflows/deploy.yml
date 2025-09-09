@@ -9,16 +9,23 @@ jobs:
     deploy:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v3
+            - uses: actions/checkout@v4
+            - uses: actions/checkout@v4
               with:
-                  fetch-depth: 0
+                  repository: AuTsing/denofa_core
+                  path: api/denofa_core
+                  token: ${{ secrets.DENOFA_CORE_TOKEN }}
+
             - uses: actions/setup-node@v3
               with:
                   node-version: 22
-            - run: npm install --frozen-lockfile
 
             - name: Build
-              run: npm run docs:build
+              run: |
+                  cp api/denofa_core/src/dts/*.d.ts api/
+                  npm install --frozen-lockfile
+                  npm run predocs
+                  npm run docs:build
 
             - name: Deploy
               uses: peaceiris/actions-gh-pages@v3
