@@ -1,9 +1,9 @@
 {
-    "entryPoints": ["./dts/lib.autodn.d.ts"],
+    "entryPoints": ["./api/lib.autodn.d.ts"],
     "out": "./docs/api",
     "plugin": ["typedoc-plugin-markdown"],
     "name": "Auto.dn",
-    "readme": "./dts/index.md",
+    "readme": "./api/index.md",
     "router": "kind",
     "entryFileName": "index",
     "lang": "zh",

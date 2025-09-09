@@ -10,16 +10,16 @@ export default defineConfig({
             {
                 text: 'API',
                 items: [
-                    { text: 'Android API', link: '/api/' },
-                    { text: 'Deno API', link: 'https://docs.deno.com/api/deno/~/Deno' },
+                    { text: 'Autodn API', link: '/api/' },
+                    { text: 'Deno API', link: 'https://docs.deno.com/api/deno/all_symbols' },
                     { text: 'Web API', link: 'https://docs.deno.com/api/web/all_symbols' },
-                    { text: 'Node API', link: 'https://docs.deno.com/api/node/' },
+                    { text: 'Node API', link: 'https://docs.deno.com/api/node/all_symbols' },
                 ],
             },
             {
                 text: '下载',
                 items: [
-                    { text: 'Github', link: 'https://github.com/AuTsing/denofa_release/releases' },
+                    { text: 'Github', link: 'https://github.com/AuTsing/Auto.dn-release/releases' },
                     { text: '百度网盘', link: '/404.html' },
                     { text: '夸克网盘', link: '/404.html' },
                 ],
@@ -52,7 +52,7 @@ export default defineConfig({
                 ],
             },
         ],
-        logo: '/denofa.svg',
+        logo: '/logo.svg',
         search: {
             provider: 'local',
         },

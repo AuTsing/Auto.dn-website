@@ -2,7 +2,7 @@
 
 ## 安装应用
 
--   [Github Releases](https://github.com/AuTsing/denofa_release/releases)
+-   [Github Releases](https://github.com/AuTsing/Auto.dn-release/releases)
 -   [百度网盘]
 -   [夸克网盘]
 

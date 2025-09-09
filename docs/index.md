@@ -6,15 +6,15 @@ hero:
     text: 基于 Deno 实现的自动化平台
     tagline: 使用 JavaScript 或 TypeScript 调用丰富的 API 实现自动化操作，简单轻松
     image:
-        src: /denofa.svg
-        alt: Denofa
+        src: /logo.svg
+        alt: Logo
     actions:
         - theme: brand
           text: 快速开始
           link: /guide/quick-start
         - theme: alt
           text: 下载 APP
-          link: https://github.com/AuTsing/denofa_release/releases
+          link: https://github.com/AuTsing/Auto.dn-release/releases
 
 features:
     - icon: ⚡
