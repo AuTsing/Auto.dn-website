@@ -1,0 +1,1 @@
+import{_ as a,c as t,o,ag as d}from"./chunks/framework.Bw-5EFTY.js";const A=JSON.parse('{"title":"Autodn 命名空间","description":"","frontmatter":{},"headers":[],"relativePath":"api/index.md","filePath":"api/index.md"}'),n={name:"api/index.md"};function r(i,e,c,p,s,u){return o(),t("div",null,e[0]||(e[0]=[d("",5)]))}const l=a(n,[["render",r]]);export{A as __pageData,l as default};
