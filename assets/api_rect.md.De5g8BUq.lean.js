@@ -1,1 +1,0 @@
-import{_ as t,c as a,o as r,ag as o}from"./chunks/framework.Bw-5EFTY.js";const m=JSON.parse('{"title":"Rect 矩形","description":"","frontmatter":{},"headers":[],"relativePath":"api/rect.md","filePath":"api/rect.md"}'),c={name:"api/rect.md"};function i(p,e,n,d,l,h){return r(),a("div",null,e[0]||(e[0]=[o("",14)]))}const _=t(c,[["render",i]]);export{m as __pageData,_ as default};
