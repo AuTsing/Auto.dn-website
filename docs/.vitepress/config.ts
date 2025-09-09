@@ -1,4 +1,13 @@
-import { defineConfig } from 'vitepress';
+import { defineConfig, DefaultTheme } from 'vitepress';
+import typedocSidebar from '../api/typedoc-sidebar.json';
+
+function genApiSidebar(): DefaultTheme.SidebarItem[] {
+    const sidebarItems = Array.from(typedocSidebar[0].items) as DefaultTheme.SidebarItem[];
+    sidebarItems[0].text = 'Autodn 分类';
+    sidebarItems[0].collapsed = false;
+    sidebarItems.unshift({ text: 'Autodn API', link: '/api/' });
+    return sidebarItems;
+}
 
 export default defineConfig({
     title: 'Auto.dn | 基于 Deno 实现的自动化平台',
@@ -43,13 +52,7 @@ export default defineConfig({
             },
             {
                 text: 'API 文档',
-                items: [
-                    { text: 'io 输入输出', link: '/api/io' },
-                    { text: 'finger 手指', link: '/api/finger' },
-                    { text: 'Rect 矩形', link: '/api/rect' },
-                    { text: 'UIObject UI对象', link: '/api/ui_object' },
-                    { text: 'UISelector UI选择器', link: '/api/ui_selector' },
-                ],
+                items: genApiSidebar(),
             },
         ],
         logo: '/logo.svg',

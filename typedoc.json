@@ -1,7 +1,7 @@
 {
     "entryPoints": ["./api/lib.autodn.d.ts"],
     "out": "./docs/api",
-    "plugin": ["typedoc-plugin-markdown"],
+    "plugin": ["typedoc-plugin-markdown", "typedoc-vitepress-theme"],
     "name": "Auto.dn",
     "readme": "./api/index.md",
     "router": "kind",
@@ -18,5 +18,12 @@
     "typeAliasPropertiesFormat": "table",
     "enumMembersFormat": "table",
     "propertyMembersFormat": "table",
-    "typeDeclarationFormat": "table"
+    "typeDeclarationFormat": "table",
+    "docsRoot": "./docs",
+    "sidebar": {
+        "autoConfiguration": true,
+        "format": "vitepress",
+        "pretty": true,
+        "collapsed": true
+    }
 }
