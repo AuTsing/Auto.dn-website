@@ -18,7 +18,7 @@ jobs:
               env:
                   VERSION: ${{ github.event.client_payload.version }}
               run: |
-                  NOW=$(date '+%Y-%m-%d %H:%M:%S %Z')
+                  NOW=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S %Z')
                   sed -i "s/API 版本: .*/API 版本: v${{ env.VERSION }}/" README.md
                   sed -i "s|生成时间: .*|生成时间: ${NOW}|" README.md
 
@@ -35,9 +35,17 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
+
+            - name: Read version
+              id: read_version
+              run: |
+                  TAG_NAME=$(sed -n 's/API 版本: \(v.*\).*/\1/p' README.md)
+                  echo "tag_name=${TAG_NAME}" >> $GITHUB_OUTPUT
+
             - uses: actions/checkout@v4
               with:
                   repository: AuTsing/denofa_core
+                  ref: refs/tags/${{ steps.read_version.outputs.tag_name }}
                   path: api/denofa_core
                   token: ${{ secrets.DENOFA_CORE_TOKEN }}
 
