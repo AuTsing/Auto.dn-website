@@ -21,7 +21,6 @@ jobs:
                   NOW=$(date '+%Y-%m-%d %H:%M:%S %Z')
                   sed -i "s/API 版本: .*/API 版本: v${{ env.VERSION }}/" README.md
                   sed -i "s|生成时间: .*|生成时间: ${NOW}|" README.md
-                  cat README.md
 
             - name: Commit
               run: |
