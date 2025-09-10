@@ -6,6 +6,7 @@ function genApiSidebar(): DefaultTheme.SidebarItem[] {
     sidebarItems[0].text = 'Autodn 分类';
     sidebarItems[0].collapsed = false;
     sidebarItems.unshift({ text: 'Autodn API', link: '/api/' });
+    sidebarItems.push({ text: '更新日志', link: '/api/CHANGELOG' });
     return sidebarItems;
 }
 

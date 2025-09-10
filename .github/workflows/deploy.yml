@@ -55,9 +55,10 @@ jobs:
 
             - name: Build
               run: |
-                  cp api/denofa_core/src/dts/*.d.ts api/
                   npm install --frozen-lockfile
+                  cp api/denofa_core/src/dts/*.d.ts api/
                   npm run predocs
+                  cp api/denofa_core/CHANGELOG.md docs/api/
                   npm run docs:build
 
             - name: Deploy
