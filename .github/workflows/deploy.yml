@@ -8,33 +8,24 @@ on:
             - main
 
 jobs:
-    update_readme:
-        if: github.event_name == 'repository_dispatch'
+    deploy:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
 
-            - name: Update
+            - if: github.event_name == 'repository_dispatch'
+              name: Update version
               env:
                   VERSION: ${{ github.event.client_payload.version }}
               run: |
                   NOW=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S %Z')
                   sed -i "s/API 版本: .*/API 版本: v${{ env.VERSION }}/" README.md
                   sed -i "s|生成时间: .*|生成时间: ${NOW}|" README.md
-
-            - name: Commit
-              run: |
                   git config user.name "github-actions[bot]"
                   git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
                   git add README.md
                   git commit -m "chore: update README"
                   git push
-
-    deploy:
-        if: github.event_name == 'push'
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v4
 
             - name: Read version
               id: read_version
