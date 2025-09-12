@@ -16,7 +16,7 @@ export default defineConfig({
     themeConfig: {
         siteTitle: 'Auto.dn',
         nav: [
-            { text: '指南', link: '/guide/what-is-denofa' },
+            { text: '指南', link: '/guide/what-is-autodn' },
             {
                 text: 'API',
                 items: [
@@ -29,7 +29,19 @@ export default defineConfig({
             {
                 text: '下载',
                 items: [
-                    { text: 'Github', link: 'https://github.com/AuTsing/Auto.dn-release/releases' },
+                    {
+                        text: 'Github',
+                        link: 'https://github.com/AuTsing/Auto.dn-release/releases/latest/download/Autodn.apk',
+                    },
+                    {
+                        text: 'Github(加速1)',
+                        link: 'https://ghfast.top/https://github.com/AuTsing/Auto.dn-release/releases/latest/download/Autodn.apk',
+                    },
+                    {
+                        text: 'Github(加速2)',
+                        link: 'https://gh-proxy.com/https://github.com/AuTsing/Auto.dn-release/releases/latest/download/Autodn.apk',
+                    },
+                    { text: 'Github发布页', link: 'https://github.com/AuTsing/Auto.dn-release/releases' },
                     { text: '百度网盘', link: '/404.html' },
                     { text: '夸克网盘', link: '/404.html' },
                 ],
@@ -47,8 +59,9 @@ export default defineConfig({
             {
                 text: '指南',
                 items: [
-                    { text: 'Auto.dn 是什么？', link: '/guide/what-is-denofa' },
+                    { text: 'Auto.dn 是什么？', link: '/guide/what-is-autodn' },
                     { text: '快速开始', link: '/guide/quick-start' },
+                    { text: '安装应用', link: '/guide/install-app' },
                 ],
             },
             {
