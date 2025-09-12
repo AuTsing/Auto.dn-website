@@ -9,8 +9,6 @@
 -   [Github](https://github.com/AuTsing/Auto.dn-release/releases/latest/download/Autodn.apk)
 -   [Github(加速 1)](https://ghfast.top/https://github.com/AuTsing/Auto.dn-release/releases/latest/download/Autodn.apk)
 -   [Github(加速 2)](https://gh-proxy.com/https://github.com/AuTsing/Auto.dn-release/releases/latest/download/Autodn.apk)
--   [百度网盘](/404)
--   [夸克网盘](/404)
 
 ## 支持
 

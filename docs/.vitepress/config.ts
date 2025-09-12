@@ -42,8 +42,6 @@ export default defineConfig({
                         link: 'https://gh-proxy.com/https://github.com/AuTsing/Auto.dn-release/releases/latest/download/Autodn.apk',
                     },
                     { text: 'Github发布页', link: 'https://github.com/AuTsing/Auto.dn-release/releases' },
-                    { text: '百度网盘', link: '/404.html' },
-                    { text: '夸克网盘', link: '/404.html' },
                 ],
             },
             {
