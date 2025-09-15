@@ -2,4 +2,3 @@ node_modules/
 dist/
 **cache**
 docs/api
-api/**.d.ts

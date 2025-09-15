@@ -1,9 +1,10 @@
 {
-    "entryPoints": ["./api/lib.autodn.d.ts"],
+    "tsconfig": "./docs/.typedoc/tsconfig.json",
+    "entryPoints": ["./docs/.typedoc/lib.autodn.d.ts"],
     "out": "./docs/api",
     "plugin": ["typedoc-plugin-markdown", "typedoc-vitepress-theme"],
     "name": "Auto.dn",
-    "readme": "./api/index.md",
+    "readme": "./docs/.typedoc/index.md",
     "router": "kind",
     "entryFileName": "index",
     "lang": "zh",
