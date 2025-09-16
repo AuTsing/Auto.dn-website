@@ -2,12 +2,61 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "npm: typedoc-dev",
             "type": "npm",
-            "script": "docs:dev",
+            "script": "typedoc:dev",
             "isBackground": true,
             "presentation": {
                 "reveal": "never"
             },
+            "problemMatcher": {
+                "owner": "typedoc",
+                "fileLocation": ["relative", "${workspaceFolder}"],
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+) - (error|warning) (.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                },
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": "[info]",
+                    "endsPattern": "已生成 markdown 输出"
+                }
+            }
+        },
+        {
+            "label": "npm: vitepress-dev",
+            "type": "npm",
+            "script": "vitepress:dev",
+            "isBackground": true,
+            "presentation": {
+                "reveal": "never"
+            },
+            "problemMatcher": {
+                "owner": "vitepress",
+                "fileLocation": ["relative", "${workspaceFolder}"],
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+): (ERROR|WARNING): (.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                },
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": "vitepress",
+                    "endsPattern": "v\\d+\\.\\d+\\.\\d"
+                }
+            }
+        },
+        {
+            "label": "npm: dev",
+            "dependsOn": ["npm: typedoc-dev", "npm: vitepress-dev"],
+            "dependsOrder": "sequence",
             "group": {
                 "kind": "build",
                 "isDefault": true
