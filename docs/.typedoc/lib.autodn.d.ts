@@ -1,5 +1,8 @@
 // deno-lint-ignore-file no-explicit-any
 
+/**
+ * @version 0.15.1
+ */
 declare namespace Autodn {
     /**
      * @category Common 通用
@@ -1609,101 +1612,101 @@ declare namespace Autodn {
     ): Promise<Point[]>;
 
     /**
-     * @category IO 输入输出
+     * @category I/O 输入输出
      */
     export namespace log {
         /**
          * 输出级别为 `VERBOSE` 的日志。
          *
-         * @category IO 输入输出
+         * @category I/O 输入输出
          */
         export function verbose(...args: any[]): void;
 
         /**
          * 输出级别为 `DEBUG` 的日志。
          *
-         * @category IO 输入输出
+         * @category I/O 输入输出
          */
         export function debug(...args: any[]): void;
 
         /**
          * 输出级别为 `INFO` 的日志。
          *
-         * @category IO 输入输出
+         * @category I/O 输入输出
          */
         export function info(...args: any[]): void;
 
         /**
          * 输出级别为 `WARN` 的日志。
          *
-         * @category IO 输入输出
+         * @category I/O 输入输出
          */
         export function warn(...args: any[]): void;
 
         /**
          * 输出级别为 `ERROR` 的日志。
          *
-         * @category IO 输入输出
+         * @category I/O 输入输出
          */
         export function error(...args: any[]): void;
 
         /**
          * 输出级别为 `ASSERT` 的日志。
          *
-         * @category IO 输入输出
+         * @category I/O 输入输出
          */
         export function assert(...args: any[]): void;
 
         /**
          * 同 `verbose`。
          *
-         * @category IO 输入输出
+         * @category I/O 输入输出
          */
         export function v(...args: any[]): void;
 
         /**
          * 同 `debug`。
          *
-         * @category IO 输入输出
+         * @category I/O 输入输出
          */
         export function d(...args: any[]): void;
 
         /**
          * 同 `info`。
          *
-         * @category IO 输入输出
+         * @category I/O 输入输出
          */
         export function i(...args: any[]): void;
 
         /**
          * 同 `warn`。
          *
-         * @category IO 输入输出
+         * @category I/O 输入输出
          */
         export function w(...args: any[]): void;
 
         /**
          * 同 `error`。
          *
-         * @category IO 输入输出
+         * @category I/O 输入输出
          */
         export function e(...args: any[]): void;
 
         /**
          * 同 `assert`。
          *
-         * @category IO 输入输出
+         * @category I/O 输入输出
          */
         export function a(...args: any[]): void;
     }
 
     /**
-     * @category IO 输入输出
+     * @category I/O 输入输出
      */
     export function toast(...args: any[]): void;
 
     /**
-     * @category IO 输入输出
+     * @category I/O 输入输出
      */
     export interface NotificationOptions {
         smallIcon: string | null;
@@ -1711,38 +1714,38 @@ declare namespace Autodn {
     }
 
     /**
-     * @category IO 输入输出
+     * @category I/O 输入输出
      */
     export function notification(title: string, message: string): void;
     export function notification(title: string, message: string, options: NotificationOptions): void;
 
     /**
-     * @category IO 输入输出
+     * @category I/O 输入输出
      */
     export function inputTextPrivilege(text: string): Promise<void>;
 
     /**
-     * @category IO 输入输出
+     * @category I/O 输入输出
      */
     export function inputTextRoot(text: string): Promise<void>;
 
     /**
-     * @category IO 输入输出
+     * @category I/O 输入输出
      */
     export function inputTextShizuku(text: string): Promise<void>;
 
     /**
-     * @category IO 输入输出
+     * @category I/O 输入输出
      */
     export function inputKeyEventPrivilege(key: string): Promise<void>;
 
     /**
-     * @category IO 输入输出
+     * @category I/O 输入输出
      */
     export function inputKeyEventRoot(key: string): Promise<void>;
 
     /**
-     * @category IO 输入输出
+     * @category I/O 输入输出
      */
     export function inputKeyEventShizuku(key: string): Promise<void>;
 
@@ -1760,7 +1763,7 @@ declare namespace Autodn {
     /**
      * @category Project 工程
      */
-    export function stopAllProject(): void;
+    export function stopAllProjects(): void;
 
     /**
      * @category Project 工程

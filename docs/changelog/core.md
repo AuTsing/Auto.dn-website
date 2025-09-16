@@ -1,5 +1,9 @@
 # denofa_core 更新日志
 
+## [0.15.1] - 2025-09-16
+
+-   命名空间 `Autodn` dts 添加 version
+
 ## [0.15.0] - 2025-09-11
 
 -   根命名空间 `Android` 更名为 `Autodn`
