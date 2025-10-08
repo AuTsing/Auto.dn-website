@@ -1,5 +1,28 @@
 # denofa_core 更新日志
 
+## [0.16.0] - 2025-10-08
+
+-   新增接口 `PaddleDetOptions`
+-   新增接口 `PaddleRecOptions`
+-   新增接口 `PaddleOcrOptions`
+-   新增接口 `PaddleDetResult`
+-   新增接口 `PaddleRecResult`
+-   新增接口 `PaddleOcrResult`
+-   新增类 `PaddleModel`
+-   新增函数 `loadPaddleModel`
+-   枚举类 `DnnBackend` 移除
+-   枚举类 `DnnTarget` 移除
+-   接口 `DetectResult` 移除
+-   接口 `RecognizeResult` 移除
+-   类 `Model` 移除
+-   函数 `loadModel` 移除
+-   函数 `loadOnnxModel` 移除
+-   函数 `loadCaffeModel` 移除
+-   函数 `loadDarknetModel` 移除
+-   函数 `loadTfliteModel` 移除
+-   函数 `loadTensorfloModel` 移除
+-   函数 `loadTorchModel` 移除
+
 ## [0.15.3] - 2025-09-16
 
 -   命名空间 `Autodn` dts 添加 version
