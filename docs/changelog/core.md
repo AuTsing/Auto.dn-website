@@ -1,4 +1,23 @@
-# denofa_core 更新日志
+# Auto.dn Core 更新日志
+
+## [0.17.0] - 2025-10-14
+
+-   库名更改为`autodncore`
+-   新增接口 `ShellExecResult`
+-   新增类型别名 `ProjectCategory` 的选项
+-   接口 `ProjectInfo` 移除属性 `name`, `path`, `category`, `entryPoint`, `workingDir`, `configFilePath`, `shortcut`, `permissions`, `args`, `repository`, `updatedAt`, `cachedAt`, `tasks`
+-   接口 `ProjectInfo` 新增属性 `project`
+-   函数 `execSh` 签名更新
+-   函数 `execShSync` 签名更新
+-   函数 `execSu` 签名更新
+-   函数 `execSuSync` 签名更新
+-   函数 `execLibsu` 签名更新
+-   函数 `execLibsuSync` 签名更新
+-   函数 `execShizuku` 签名更新
+-   函数 `execShizukuSync` 签名更新
+-   接口 `ShellResultConstructorOptions` 移除
+-   类 `ShellResult` 移除
+-   修复工程结束后 `PaddleModel` 可能会因没有释放导致内存泄漏的问题
 
 ## [0.16.0] - 2025-10-08
 
