@@ -1,5 +1,59 @@
 # Auto.dn Core 更新日志
 
+## [0.18.0] - 2025-10-18
+
+-   新增别名 `IntoPoint`
+-   新增别名 `IntoRect`
+-   新增别名 `QuickUiResultValue`
+-   新增接口 `CompareColorOptions`
+-   新增接口 `FindColorOptions`
+-   新增接口 `SaveImageOptions`
+-   新增接口 `QuickUiSelectOptions`
+-   新增接口 `QuickUiSwitchOptions`
+-   新增接口 `QuickUiCheckboxOptions`
+-   新增接口 `QuickUiInputOptions`
+-   新增接口 `QuickUiTextOptions`
+-   新增函数 `compareMultiColor`
+-   新增函数 `Point.from`
+-   新增函数 `Rect.toXyc`
+-   新增函数 `Rect.toUint32Array`
+-   新增函数 `Rect.from`
+-   新增函数 `Rect.toLtrb`
+-   新增函数 `Rect.toUint32Array`
+-   别名 `QuickUiResultValueCategory` 移除
+-   接口 `NotificationOptions` 结构更新
+-   接口 `CompareColorOptionsConstructorOptions` 移除
+-   接口 `FindColorOptionsConstructorOptions` 移除
+-   接口 `SaveImageOptionsConstructorOptions` 移除
+-   接口 `QuickUiSelectOptionsConstructorOptions` 移除
+-   接口 `QuickUiSwitchOptionsConstructorOptions` 移除
+-   接口 `QuickUiCheckboxOptionsConstructorOptions` 移除
+-   接口 `QuickUiInputOptionsConstructorOptions` 移除
+-   接口 `QuickUiTextOptionsConstructorOptions` 移除
+-   函数 `saveImage` 签名更新
+-   函数 `compareColor` 签名更新
+-   函数 `findColor` 签名更新
+-   函数 `findColors` 签名更新
+-   函数 `findMultiColor` 签名更新
+-   函数 `findMultiColors` 签名更新
+-   函数 `notification` 签名更新
+-   函数 `Point.constructor` 签名更新
+-   函数 `Rect.constructor` 签名更新
+-   函数 `QuickUiBuilder.addSelect` 签名更新
+-   函数 `QuickUiBuilder.addSwitch` 签名更新
+-   函数 `QuickUiBuilder.addCheckbox` 签名更新
+-   函数 `QuickUiBuilder.addInput` 签名更新
+-   函数 `QuickUiBuilder.addText` 签名更新
+-   函数 `compareColors` 移除
+-   类 `CompareColorOptions` 移除
+-   类 `FindColorOptions` 移除
+-   类 `SaveImageOptions` 移除
+-   类 `QuickUiSelectOptions` 移除
+-   类 `QuickUiSwitchOptions` 移除
+-   类 `QuickUiCheckboxOptions` 移除
+-   类 `QuickUiInputOptions` 移除
+-   类 `QuickUiTextOptions` 移除
+
 ## [0.17.0] - 2025-10-14
 
 -   库名更改为`autodncore`
