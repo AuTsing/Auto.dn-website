@@ -1,5 +1,27 @@
 # Auto.dn Core 更新日志
 
+## [0.19.0] - 2025-10-29
+
+-   新增别名 `CanvasDrawStyle`
+-   新增别名 `CanvasStrokeCap`
+-   新增别名 `CanvasPointMode`
+-   新增别名 `CanvasTextOverflow`
+-   新增接口 `CanvasConstructorOptions`
+-   新增接口 `TextCanvasConstructorOptions`
+-   新增接口 `CanvasDrawLineOptions`
+-   新增接口 `CanvasDrawRectOptions`
+-   新增接口 `CanvasDrawImageOptions`
+-   新增接口 `CanvasDrawRoundRectOptions`
+-   新增接口 `CanvasDrawCircleOptions`
+-   新增接口 `CanvasDrawOvalOptions`
+-   新增接口 `CanvasDrawArcOptions`
+-   新增接口 `CanvasDrawPointsOptions`
+-   新增接口 `CanvasDrawTextOptions`
+-   新增类 `Canvas`
+-   新增类 `TextCanvas`
+-   类 `Floater` 移除
+-   类 `FloaterBuilder` 移除
+
 ## [0.18.2] - 2025-10-22
 
 -   类 `Image` 添加自动回收
