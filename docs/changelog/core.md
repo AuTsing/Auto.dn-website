@@ -1,5 +1,13 @@
 # Auto.dn Core 更新日志
 
+## [0.21.0] - 2025-12-25
+
+-   新增类 `YoloModel`
+-   新增函数 `loadYoloModel`
+-   接口 `PaddleDetOptions` 更新
+-   接口 `PaddleRecOptions` 更新
+-   函数 `PaddleModel.setRegion` 移除
+
 ## [0.20.0] - 2025-11-22
 
 -   使用 macro 组织代码
