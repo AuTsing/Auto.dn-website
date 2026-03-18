@@ -1,5 +1,9 @@
 # Auto.dn Core 更新日志
 
+## [0.23.0] - 2026-03-18
+
+- 新增函数 `getInternalCachePath`
+
 ## [0.22.4] - 2026-03-07
 
 - 修复函数 `PaddleModel.rec` 签名不正确的问题
