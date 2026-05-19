@@ -1,5 +1,12 @@
 # Auto.dn Core 更新日志
 
+## [0.23.1] - 2026-05-20
+
+- 修复函数 `QuickUi.getResult` 返回值不正确的问题
+- 修复函数 `QuickUi.getLastResult` 返回值不正确的问题
+- 修复函数 `QuickUi.waitForResult` 返回值不正确的问题
+- 更新类型 `QuickUiResult`
+
 ## [0.23.0] - 2026-03-18
 
 - 新增函数 `getInternalCachePath`
