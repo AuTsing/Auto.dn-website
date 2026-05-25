@@ -1,5 +1,9 @@
 # Auto.dn Core 更新日志
 
+## [0.23.2] - 2026-05-26
+
+- 修复函数 `TextCanvas.updateText` 不正确的问题
+
 ## [0.23.1] - 2026-05-20
 
 - 修复函数 `QuickUi.getResult` 返回值不正确的问题
