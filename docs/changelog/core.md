@@ -1,5 +1,13 @@
 # Auto.dn Core 更新日志
 
+## [0.23.3] - 2026-05-28
+
+- 修复模块 `finger` 内的函数无法正常执行的问题
+- 更新类构造函数 `Point.constructor`
+- 更新类构造函数 `Rect.constructor`
+- 优化 `Point` 的说明文本
+- 优化 `Rect` 的说明文本
+
 ## [0.23.2] - 2026-05-26
 
 - 修复函数 `TextCanvas.updateText` 不正确的问题
